@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubhamsingh-1611/Chat.io---Fullstack-Chat-Application.git"
+  },
+  "author": "Shubham Kumar Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubhamsingh-1611/Chat.io---Fullstack-Chat-Application/issues"
+  },
+  "homepage": "https://github.com/Shubhamsingh-1611/Chat.io---Fullstack-Chat-Application#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "socket.io": "^4.8.1"
+  }
+}
