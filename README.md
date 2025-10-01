@@ -1,5 +1,5 @@
 
-# ChatMe App
+# Chat.io App
 
 This is a MERN Full Stack Chatting App that uses Socket.io for real-time communication and stores user details in an encrypted format in a MongoDB database.
 
@@ -16,11 +16,7 @@ Clone the project
 https://github.com/Shubhamsingh-1611/Chat.io---Fullstack-Chat-Application
 ```
 
-Go to the project directory
 
-```bash
-  cd chat-app-website
-```
 
 Install dependencies
 
