@@ -13,7 +13,7 @@ Database: Mongo DB
 Clone the project
 
 ```bash
-  git clone https://github.com/melchie04/chat-app-website.git
+https://github.com/Shubhamsingh-1611/Chat.io---Fullstack-Chat-Application
 ```
 
 Go to the project directory
