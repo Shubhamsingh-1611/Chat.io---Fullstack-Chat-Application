@@ -1,29 +1,27 @@
 {
-  "name": "server",
+  "name": "chat-app-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev": "nodemon server",
+    "build": "npm install"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shubhamsingh-1611/Chat.io---Fullstack-Chat-Application.git"
-  },
-  "author": "Shubham Kumar Singh",
+  "author": "Melchor Bendanillo Callos",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Shubhamsingh-1611/Chat.io---Fullstack-Chat-Application/issues"
-  },
-  "homepage": "https://github.com/Shubhamsingh-1611/Chat.io---Fullstack-Chat-Application#readme",
   "dependencies": {
-    "bcryptjs": "^3.0.2",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.15.0",
-    "socket.io": "^4.8.1"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.1",
+    "socket.io": "^4.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
